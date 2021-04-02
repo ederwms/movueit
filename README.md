@@ -26,3 +26,6 @@ Esse projeto foi desenvolvido utilizando [VueJs](https://vuejs.org/), [NuxtJs](h
 </p>
 
 **&copy;** [MaiattoDev](https://www.youtube.com/watch?v=VbkFOWw4yeY&list=PL6GSB1I1APjqS1ligyQwHeVT0sAOWNkWH&ab_channel=MaiattoDev)
+
+### Licença
+[MIT](https://github.com/ederwms/movueit/blob/main/LICENSE)
