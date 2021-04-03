@@ -57,21 +57,16 @@ interface Head {
 }
 
 export default Vue.extend({
-  layout: 'Default',
-  head (): Head {
-    return {
-      title: 'Home | movue.it'
-    }
-  },
   components: {
     Card,
     Profile,
     Countdown,
     CompletedChallenges
   },
-  mounted () {
-    if ('Notification' in window) {
-      Notification.requestPermission()
+  layout: 'Default',
+  head (): Head {
+    return {
+      title: 'Home | movue.it'
     }
   },
   computed: {
@@ -80,6 +75,11 @@ export default Vue.extend({
       isCountdownActive: 'isActive'
     }),
     ...mapGetters('Challenges', ['challengesLength'])
+  },
+  mounted () {
+    if ('Notification' in window) {
+      Notification.requestPermission()
+    }
   },
   methods: {
     ...mapMutations({
