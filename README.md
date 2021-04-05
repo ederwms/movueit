@@ -54,7 +54,7 @@ Antes de começar, é preciso ter instalado as ferramentas [Git](https://git-scm
   # Execute e aplicação em modo de desenvolvimento
   $ yarn dev (ou npm run dev)
   
-  # Acesse http://localhost:3000
+  # Abra o navegador e acesse http://localhost:3000
 ```
 
 # Autor
