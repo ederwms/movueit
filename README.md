@@ -58,7 +58,9 @@ Antes de começar, é preciso ter instalado as ferramentas [Git](https://git-scm
 ```
 
 # Autor
+<!--
 <img src="https://github.com/ederwms.png" width="80px" alt="Author avatar">
+-->
 
 [Éder Sousa](https://github.com/ederwms)
 
